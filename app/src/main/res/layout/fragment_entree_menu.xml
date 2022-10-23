@@ -25,7 +25,10 @@
             name="viewModel"
             type="com.example.lunchtray.model.OrderViewModel" />
 
-        <!-- TODO: Add the data binding variable for the EntreeMenuFragment -->
+        <!-- doneTODO: Add the data binding variable for the EntreeMenuFragment -->
+        <variable
+            name="EntreeMenuFragment"
+            type="com.example.lunchtray.ui.order.EntreeMenuFragment" />
     </data>
 
 
@@ -48,13 +51,14 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
-                <!-- TODO: set the entree in the view model when the RadioButton is clicked -->
+                <!-- doneTODO: set the entree in the view model when the RadioButton is clicked -->
                 <RadioButton
                     android:id="@+id/cauliflower"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["cauliflower"].name}'
+                    android:onClick='@{() -> viewModel.setEntree("cauliflower")}'
                     tools:text="Entree 1" />
 
                 <TextView
@@ -78,13 +82,14 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/cauliflower_description" />
 
-                <!-- TODO: set the entree in the view model when the RadioButton is clicked -->
+                <!-- doneTODO: set the entree in the view model when the RadioButton is clicked -->
                 <RadioButton
                     android:id="@+id/chili"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["chili"].name}'
+                    android:onClick='@{() -> viewModel.setEntree("chili")}'
                     tools:text="Entree 2" />
 
                 <TextView
@@ -108,13 +113,14 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/chili_description" />
 
-                <!-- TODO: set the entree in the view model when the RadioButton is clicked -->
+                <!-- doneTODO: set the entree in the view model when the RadioButton is clicked -->
                 <RadioButton
                     android:id="@+id/pasta"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["pasta"].name}'
+                    android:onClick='@{() -> viewModel.setEntree("pasta")}'
                     tools:text="Entree 3" />
 
                 <TextView
@@ -138,13 +144,14 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/pasta_description" />
 
-                <!-- TODO: set the entree in the view model when the RadioButton is clicked -->
+                <!-- doneTODO: set the entree in the view model when the RadioButton is clicked -->
                 <RadioButton
                     android:id="@+id/skillet"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["skillet"].name}'
+                    android:onClick='@{() -> viewModel.setEntree("skillet")}'
                     tools:text="Entree 4" />
 
                 <TextView
@@ -172,26 +179,28 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/entree_options" />
 
-            <!-- TODO: set the text to the current subtotal value from the view model -->
+            <!-- doneTODO: set the text to the current subtotal value from the view model -->
             <TextView
                 android:id="@+id/subtotal"
                 style="@style/Widget.LunchTray.TextView.Subtotal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/divider"
-                tools:text="Subtotal $5.00"/>
+                tools:text="@{@string/subtotal(viewModel.subtotal)}"/>
 
-            <!-- TODO: cancel the order when clicked -->
+            <!-- doneTODO: cancel the order when clicked -->
             <Button
                 android:id="@+id/cancel_button"
                 style="@style/Widget.Order.Button.Cancel"
+                android:onClick="@{() -> EntreeMenuFragment.cancelOrder()}"
                 app:layout_constraintEnd_toStartOf="@id/next_button"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@id/next_button" />
 
-            <!-- TODO: go to the next screen when clicked -->
+            <!-- doneTODO: go to the next screen when clicked -->
             <Button
                 android:id="@+id/next_button"
                 style="@style/Widget.Order.Button.Next"
+                android:onClick="@{() -> EntreeMenuFragment.goToNextScreen()}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/cancel_button"
