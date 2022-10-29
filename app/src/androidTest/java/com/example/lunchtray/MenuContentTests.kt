@@ -22,7 +22,6 @@ import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.MediumTest
-import com.example.lunchtray.ui.order.AccompanimentMenuFragment
 import com.example.lunchtray.ui.order.EntreeMenuFragment
 import com.example.lunchtray.ui.order.SideMenuFragment
 import org.hamcrest.CoreMatchers.containsString

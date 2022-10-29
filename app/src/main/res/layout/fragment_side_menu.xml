@@ -57,21 +57,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
-                    android:text='@{viewModel.menuItems["salad"].name}'
-                    android:onClick='@{() -> viewModel.setSide("salad")}'
+                    android:text='@{viewModel.menuItems["3day"].name}'
+                    android:onClick='@{() -> viewModel.setSide("3day")}'
                     tools:text="Side 1" />
 
                 <TextView
                     android:id="@+id/salad_description"
                     style="@style/Widget.MenuItem.TextView.Info"
-                    android:text='@{viewModel.menuItems["salad"].description}'
+                    android:text='@{viewModel.menuItems["3day"].description}'
                     tools:text="Side 1 description" />
 
                 <TextView
                     android:id="@+id/salad_price"
                     style="@style/Widget.MenuItem.TextView.Info"
                     android:paddingTop="@dimen/base_margin"
-                    android:text='@{viewModel.menuItems["salad"].getFormattedPrice()}'
+                    android:text='@{viewModel.menuItems["3day"].getFormattedPrice()}'
                     tools:text="$0.00" />
 
                 <View
@@ -88,85 +88,30 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
-                    android:text='@{viewModel.menuItems["soup"].name}'
-                    android:onClick='@{() -> viewModel.setSide("soup")}'
+                    android:text='@{viewModel.menuItems["7day"].name}'
+                    android:onClick='@{() -> viewModel.setSide("7day")}'
                     tools:text="Side 2" />
 
                 <TextView
                     android:id="@+id/soup_description"
                     style="@style/Widget.MenuItem.TextView.Info"
-                    android:text='@{viewModel.menuItems["soup"].description}'
+                    android:text='@{viewModel.menuItems["7day"].description}'
                     tools:text="Side 2 description" />
 
                 <TextView
                     android:id="@+id/soup_price"
                     style="@style/Widget.MenuItem.TextView.Info"
                     android:paddingTop="@dimen/base_margin"
-                    android:text='@{viewModel.menuItems["soup"].getFormattedPrice()}'
+                    android:text='@{viewModel.menuItems["7day"].getFormattedPrice()}'
                     tools:text="$0.00" />
 
-                <View
-                    style="@style/Widget.LunchTray.Divider"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/soup_description" />
 
 
                 <!-- doneTODO: set the side in the view model when the RadioButton is clicked -->
-                <RadioButton
-                    android:id="@+id/potatoes"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?attr/textAppearanceBody1"
-                    android:text='@{viewModel.menuItems["potatoes"].name}'
-                    android:onClick='@{() -> viewModel.setSide("potatoes")}'
-                    tools:text="Side 3" />
 
-                <TextView
-                    android:id="@+id/potato_description"
-                    style="@style/Widget.MenuItem.TextView.Info"
-                    android:text='@{viewModel.menuItems["potatoes"].description}'
-                    tools:text="Side 3 description" />
-
-                <TextView
-                    android:id="@+id/potato_price"
-                    style="@style/Widget.MenuItem.TextView.Info"
-                    android:paddingTop="@dimen/base_margin"
-                    android:text='@{viewModel.menuItems["potatoes"].getFormattedPrice()}'
-                    tools:text="$0.00" />
-
-                <View
-                    style="@style/Widget.LunchTray.Divider"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/potato_description" />
 
                 <!-- doneTODO: set the side in the view model when the RadioButton is clicked -->
-                <RadioButton
-                    android:id="@+id/rice"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?attr/textAppearanceBody1"
-                    android:text='@{viewModel.menuItems["rice"].name}'
-                    android:onClick='@{() -> viewModel.setSide("rice")}'
-                    tools:text="Side 4" />
 
-                <TextView
-                    android:id="@+id/rice_description"
-                    style="@style/Widget.MenuItem.TextView.Info"
-                    android:text='@{viewModel.menuItems["rice"].description}'
-                    tools:text="Side 4 description" />
-
-                <TextView
-                    android:id="@+id/rice_price"
-                    style="@style/Widget.MenuItem.TextView.Info"
-                    android:paddingTop="@dimen/base_margin"
-                    android:text='@{viewModel.menuItems["rice"].getFormattedPrice()}'
-                    tools:text="$0.00" />
 
             </RadioGroup>
 

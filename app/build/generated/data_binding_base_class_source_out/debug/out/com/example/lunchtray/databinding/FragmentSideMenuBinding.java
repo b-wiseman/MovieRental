@@ -15,6 +15,7 @@ import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import com.example.lunchtray.R;
 import com.example.lunchtray.model.OrderViewModel;
+import com.example.lunchtray.ui.order.SideMenuFragment;
 import java.lang.Deprecated;
 import java.lang.Object;
 
@@ -27,24 +28,6 @@ public abstract class FragmentSideMenuBinding extends ViewDataBinding {
 
   @NonNull
   public final Button nextButton;
-
-  @NonNull
-  public final TextView potatoDescription;
-
-  @NonNull
-  public final TextView potatoPrice;
-
-  @NonNull
-  public final RadioButton potatoes;
-
-  @NonNull
-  public final RadioButton rice;
-
-  @NonNull
-  public final TextView riceDescription;
-
-  @NonNull
-  public final TextView ricePrice;
 
   @NonNull
   public final RadioButton salad;
@@ -73,22 +56,17 @@ public abstract class FragmentSideMenuBinding extends ViewDataBinding {
   @Bindable
   protected OrderViewModel mViewModel;
 
+  @Bindable
+  protected SideMenuFragment mSideMenuFragment;
+
   protected FragmentSideMenuBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button cancelButton, View divider, Button nextButton, TextView potatoDescription,
-      TextView potatoPrice, RadioButton potatoes, RadioButton rice, TextView riceDescription,
-      TextView ricePrice, RadioButton salad, TextView saladDescription, TextView saladPrice,
-      RadioGroup sideOptions, RadioButton soup, TextView soupDescription, TextView soupPrice,
-      TextView subtotal) {
+      Button cancelButton, View divider, Button nextButton, RadioButton salad,
+      TextView saladDescription, TextView saladPrice, RadioGroup sideOptions, RadioButton soup,
+      TextView soupDescription, TextView soupPrice, TextView subtotal) {
     super(_bindingComponent, _root, _localFieldCount);
     this.cancelButton = cancelButton;
     this.divider = divider;
     this.nextButton = nextButton;
-    this.potatoDescription = potatoDescription;
-    this.potatoPrice = potatoPrice;
-    this.potatoes = potatoes;
-    this.rice = rice;
-    this.riceDescription = riceDescription;
-    this.ricePrice = ricePrice;
     this.salad = salad;
     this.saladDescription = saladDescription;
     this.saladPrice = saladPrice;
@@ -104,6 +82,13 @@ public abstract class FragmentSideMenuBinding extends ViewDataBinding {
   @Nullable
   public OrderViewModel getViewModel() {
     return mViewModel;
+  }
+
+  public abstract void setSideMenuFragment(@Nullable SideMenuFragment SideMenuFragment);
+
+  @Nullable
+  public SideMenuFragment getSideMenuFragment() {
+    return mSideMenuFragment;
   }
 
   @NonNull

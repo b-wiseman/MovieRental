@@ -23,7 +23,6 @@ import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
-import com.example.lunchtray.ui.order.AccompanimentMenuFragment
 import com.example.lunchtray.ui.order.CheckoutFragment
 import com.example.lunchtray.ui.order.EntreeMenuFragment
 import com.example.lunchtray.ui.order.SideMenuFragment

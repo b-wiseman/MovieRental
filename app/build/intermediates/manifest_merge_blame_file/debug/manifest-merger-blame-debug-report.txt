@@ -21,49 +21,49 @@
 21
 22    <uses-sdk
 23        android:minSdkVersion="21"
-23-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml
+23-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml
 24        android:targetSdkVersion="32" />
-24-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml
+24-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml
 25
 26    <uses-permission android:name="android.permission.REORDER_TASKS" />
 26-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\User\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:25:5-72
 26-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\User\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:25:22-69
 27
 28    <application
-28-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:20:5-37:19
+28-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:20:5-37:19
 29        android:allowBackup="true"
-29-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:21:9-35
+29-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:21:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 30-->[androidx.core:core:1.7.0] C:\Users\User\.gradle\caches\transforms-3\185e2f0c619288e0f8d4f5786a951195\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 31        android:debuggable="true"
 32        android:icon="@mipmap/ic_launcher"
-32-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:22:9-43
+32-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:22:9-43
 33        android:label="@string/app_name"
-33-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:23:9-41
+33-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:23:9-41
 34        android:roundIcon="@mipmap/ic_launcher_round"
-34-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:24:9-54
+34-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:24:9-54
 35        android:supportsRtl="true"
-35-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:25:9-35
+35-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:25:9-35
 36        android:testOnly="true"
 37        android:theme="@style/Theme.LunchTray" >
-37-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:26:9-47
+37-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:26:9-47
 38        <activity
-38-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:27:9-36:20
+38-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:27:9-36:20
 39            android:name="com.example.lunchtray.MainActivity"
-39-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:28:13-41
+39-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:28:13-41
 40            android:exported="true"
-40-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:30:13-36
+40-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:30:13-36
 41            android:label="@string/app_name" >
-41-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:29:13-45
+41-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:29:13-45
 42            <intent-filter>
-42-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:31:13-35:29
+42-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:31:13-35:29
 43                <action android:name="android.intent.action.MAIN" />
-43-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:17-69
-43-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:25-66
+43-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:32:17-69
+43-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:32:25-66
 44
 45                <category android:name="android.intent.category.LAUNCHER" />
-45-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:34:17-77
-45-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:34:27-74
+45-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:34:17-77
+45-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:34:27-74
 46            </intent-filter>
 47        </activity>
 48        <activity
@@ -81,8 +81,8 @@
 54            <intent-filter>
 54-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\User\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
 55                <action android:name="android.intent.action.MAIN" />
-55-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:17-69
-55-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:25-66
+55-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:32:17-69
+55-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:32:25-66
 56            </intent-filter>
 57        </activity>
 58
@@ -110,8 +110,8 @@
 70            <intent-filter>
 70-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\User\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
 71                <action android:name="android.intent.action.MAIN" />
-71-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:17-69
-71-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:25-66
+71-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:32:17-69
+71-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:32:25-66
 72            </intent-filter>
 73        </activity>
 74        <activity
@@ -125,8 +125,8 @@
 78            <intent-filter>
 78-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\User\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
 79                <action android:name="android.intent.action.MAIN" />
-79-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:17-69
-79-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:25-66
+79-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:32:17-69
+79-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:32:25-66
 80            </intent-filter>
 81        </activity>
 82        <activity
@@ -140,8 +140,8 @@
 86            <intent-filter>
 86-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\User\.gradle\caches\transforms-3\a0f0544b9fbbca97f77b59ad84711809\transformed\fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
 87                <action android:name="android.intent.action.MAIN" />
-87-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:17-69
-87-->C:\Users\User\AndroidStudioProjects\LunchTrayApp\app\src\main\AndroidManifest.xml:32:25-66
+87-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:32:17-69
+87-->C:\Users\User\AndroidStudioProjects\OrderingApp\app\src\main\AndroidManifest.xml:32:25-66
 88            </intent-filter>
 89        </activity>
 90

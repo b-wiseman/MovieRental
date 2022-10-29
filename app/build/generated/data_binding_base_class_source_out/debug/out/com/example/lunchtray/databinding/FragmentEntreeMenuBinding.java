@@ -15,6 +15,7 @@ import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import com.example.lunchtray.R;
 import com.example.lunchtray.model.OrderViewModel;
+import com.example.lunchtray.ui.order.EntreeMenuFragment;
 import java.lang.Deprecated;
 import java.lang.Object;
 
@@ -47,6 +48,15 @@ public abstract class FragmentEntreeMenuBinding extends ViewDataBinding {
   public final RadioGroup entreeOptions;
 
   @NonNull
+  public final RadioButton ghostbusters;
+
+  @NonNull
+  public final TextView ghostbustersDescription;
+
+  @NonNull
+  public final TextView ghostbustersPrice;
+
+  @NonNull
   public final Button nextButton;
 
   @NonNull
@@ -70,15 +80,29 @@ public abstract class FragmentEntreeMenuBinding extends ViewDataBinding {
   @NonNull
   public final TextView subtotal;
 
+  @NonNull
+  public final RadioButton toystory;
+
+  @NonNull
+  public final TextView toystoryDescription;
+
+  @NonNull
+  public final TextView toystoryPrice;
+
   @Bindable
   protected OrderViewModel mViewModel;
+
+  @Bindable
+  protected EntreeMenuFragment mEntreeMenuFragment;
 
   protected FragmentEntreeMenuBinding(Object _bindingComponent, View _root, int _localFieldCount,
       Button cancelButton, RadioButton cauliflower, TextView cauliflowerDescription,
       TextView cauliflowerPrice, RadioButton chili, TextView chiliDescription, TextView chiliPrice,
-      View divider, RadioGroup entreeOptions, Button nextButton, RadioButton pasta,
-      TextView pastaDescription, TextView pastaPrice, RadioButton skillet,
-      TextView skilletDescription, TextView skilletPrice, TextView subtotal) {
+      View divider, RadioGroup entreeOptions, RadioButton ghostbusters,
+      TextView ghostbustersDescription, TextView ghostbustersPrice, Button nextButton,
+      RadioButton pasta, TextView pastaDescription, TextView pastaPrice, RadioButton skillet,
+      TextView skilletDescription, TextView skilletPrice, TextView subtotal, RadioButton toystory,
+      TextView toystoryDescription, TextView toystoryPrice) {
     super(_bindingComponent, _root, _localFieldCount);
     this.cancelButton = cancelButton;
     this.cauliflower = cauliflower;
@@ -89,6 +113,9 @@ public abstract class FragmentEntreeMenuBinding extends ViewDataBinding {
     this.chiliPrice = chiliPrice;
     this.divider = divider;
     this.entreeOptions = entreeOptions;
+    this.ghostbusters = ghostbusters;
+    this.ghostbustersDescription = ghostbustersDescription;
+    this.ghostbustersPrice = ghostbustersPrice;
     this.nextButton = nextButton;
     this.pasta = pasta;
     this.pastaDescription = pastaDescription;
@@ -97,6 +124,9 @@ public abstract class FragmentEntreeMenuBinding extends ViewDataBinding {
     this.skilletDescription = skilletDescription;
     this.skilletPrice = skilletPrice;
     this.subtotal = subtotal;
+    this.toystory = toystory;
+    this.toystoryDescription = toystoryDescription;
+    this.toystoryPrice = toystoryPrice;
   }
 
   public abstract void setViewModel(@Nullable OrderViewModel viewModel);
@@ -104,6 +134,13 @@ public abstract class FragmentEntreeMenuBinding extends ViewDataBinding {
   @Nullable
   public OrderViewModel getViewModel() {
     return mViewModel;
+  }
+
+  public abstract void setEntreeMenuFragment(@Nullable EntreeMenuFragment EntreeMenuFragment);
+
+  @Nullable
+  public EntreeMenuFragment getEntreeMenuFragment() {
+    return mEntreeMenuFragment;
   }
 
   @NonNull

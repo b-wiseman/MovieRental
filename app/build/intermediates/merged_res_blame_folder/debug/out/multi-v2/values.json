@@ -42,23 +42,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\AndroidStudioProjects\\LunchTrayApp\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "17,18,20,22,21,19",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "725,783,882,975,924,839",
-                        "endColumns": "57,55,41,50,50,42",
-                        "endOffsets": "778,834,919,1021,970,877"
-                    },
-                    "to": {
-                        "startLines": "903,904,906,910,1392,1393",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "51598,51656,51777,51989,85209,85260",
-                        "endColumns": "57,55,41,50,50,42",
-                        "endOffsets": "51651,51707,51814,52035,85255,85298"
-                    }
-                },
-                {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\abdbdbe5c4eb5d166c26a86515189979\\transformed\\navigation-runtime-2.4.2\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,10,13",
@@ -75,42 +58,6 @@
                         "endLines": "1479,8232,11160,11166",
                         "endColumns": "52,24,24,24",
                         "endOffsets": "90398,541127,649683,649925"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\AndroidStudioProjects\\LunchTrayApp\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "17",
-                        "startColumns": "4",
-                        "startOffsets": "737",
-                        "endLines": "26",
-                        "endColumns": "12",
-                        "endOffsets": "1324"
-                    },
-                    "to": {
-                        "startLines": "5712",
-                        "startColumns": "4",
-                        "startOffsets": "379514",
-                        "endLines": "5721",
-                        "endColumns": "12",
-                        "endOffsets": "380013"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\AndroidStudioProjects\\LunchTrayApp\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "20,17,18,19",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "833,692,739,786",
-                        "endColumns": "41,46,46,46",
-                        "endOffsets": "870,734,781,828"
-                    },
-                    "to": {
-                        "startLines": "580,805,806,807",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "28954,45101,45148,45195",
-                        "endColumns": "41,46,46,46",
-                        "endOffsets": "28991,45143,45190,45237"
                     }
                 },
                 {
@@ -207,25 +154,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\User\\AndroidStudioProjects\\LunchTrayApp\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "103,19,30,96,25,77,67,88,55,38,47",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4762,738,1161,4413,945,3440,2953,4030,2347,1579,1990",
-                        "endLines": "103,22,35,101,27,85,74,93,64,44,52",
-                        "endColumns": "41,12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "4799,911,1531,4756,1123,3983,3383,4380,2895,1942,2294"
-                    },
-                    "to": {
-                        "startLines": "1628,5401,6506,6511,6517,6520,6528,6535,8091,8101,8107",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "99568,360628,436147,436514,436862,437045,437585,438012,535743,536296,536656",
-                        "endLines": "1628,5403,6510,6516,6519,6527,6534,6540,8100,8106,8112",
-                        "endColumns": "41,12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "99605,360793,436509,436857,437040,437580,438007,438362,536291,536651,536960"
-                    }
-                },
-                {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\0ba430e38e0a883050c3982e6d373805\\transformed\\savedstate-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -281,6 +209,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\User\\AndroidStudioProjects\\OrderingApp\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "20,17,18,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "833,692,739,786",
+                        "endColumns": "41,46,46,46",
+                        "endOffsets": "870,734,781,828"
+                    },
+                    "to": {
+                        "startLines": "580,805,806,807",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "28954,45101,45148,45195",
+                        "endColumns": "41,46,46,46",
+                        "endOffsets": "28991,45143,45190,45237"
+                    }
+                },
+                {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\2df20965edc24b231dd4b0d5412411ca\\transformed\\transition-1.4.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -295,6 +240,23 @@
                         "startOffsets": "89616,89656,90948,91130,91185,92830,92884,92936,92985,93046",
                         "endColumns": "39,46,42,54,46,53,51,48,60,49",
                         "endOffsets": "89651,89698,90986,91180,91227,92879,92931,92980,93041,93091"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\AndroidStudioProjects\\OrderingApp\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "17,18,20,22,21,19",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "725,783,882,975,924,839",
+                        "endColumns": "57,55,41,50,50,42",
+                        "endOffsets": "778,834,919,1021,970,877"
+                    },
+                    "to": {
+                        "startLines": "903,904,906,910,1392,1393",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "51598,51656,51777,51989,85209,85260",
+                        "endColumns": "57,55,41,50,50,42",
+                        "endOffsets": "51651,51707,51814,52035,85255,85298"
                     }
                 },
                 {
@@ -332,6 +294,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\User\\AndroidStudioProjects\\OrderingApp\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "737",
+                        "endLines": "26",
+                        "endColumns": "12",
+                        "endOffsets": "1324"
+                    },
+                    "to": {
+                        "startLines": "5712",
+                        "startColumns": "4",
+                        "startOffsets": "379514",
+                        "endLines": "5721",
+                        "endColumns": "12",
+                        "endOffsets": "380013"
+                    }
+                },
+                {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\f6d78bec362b33e50662f51792d1ad7a\\transformed\\navigation-common-2.4.2\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,15,21,27,30",
@@ -348,23 +329,6 @@
                         "endLines": "11142,11148,11154,11157,11309",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "648944,649188,649435,649568,654373"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\User\\AndroidStudioProjects\\LunchTrayApp\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "16,27,28,23,29,30,24,25,17,21,22,18,19,20,26",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "653,1212,1250,1026,1306,1354,1078,1128,701,906,974,752,802,856,1168",
-                        "endColumns": "47,37,55,51,47,57,49,39,50,67,51,49,53,49,43",
-                        "endOffsets": "696,1245,1301,1073,1349,1407,1123,1163,747,969,1021,797,851,901,1207"
-                    },
-                    "to": {
-                        "startLines": "1624,1715,1716,1723,1725,1726,1727,1728,1729,1730,1731,1732,1733,1734,1735",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "99001,112285,112323,113234,113357,113405,113463,113513,113553,113604,113672,113724,113774,113828,113878",
-                        "endColumns": "47,37,55,51,47,57,49,39,50,67,51,49,53,49,43",
-                        "endOffsets": "99044,112318,112374,113281,113400,113458,113508,113548,113599,113667,113719,113769,113823,113873,113917"
                     }
                 },
                 {
@@ -401,6 +365,25 @@
                         "startOffsets": "93318",
                         "endColumns": "49",
                         "endOffsets": "93363"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\AndroidStudioProjects\\OrderingApp\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "103,19,30,96,25,77,67,88,55,38,47",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4762,738,1161,4413,945,3440,2953,4030,2347,1579,1990",
+                        "endLines": "103,22,35,101,27,85,74,93,64,44,52",
+                        "endColumns": "41,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "4799,911,1531,4756,1123,3983,3383,4380,2895,1942,2294"
+                    },
+                    "to": {
+                        "startLines": "1628,5401,6506,6511,6517,6520,6528,6535,8091,8101,8107",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "99568,360628,436147,436514,436862,437045,437585,438012,535743,536296,536656",
+                        "endLines": "1628,5403,6510,6516,6519,6527,6534,6540,8100,8106,8112",
+                        "endColumns": "41,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "99605,360793,436509,436857,437040,437580,438007,438362,536291,536651,536960"
                     }
                 },
                 {
@@ -528,6 +511,23 @@
                         "startOffsets": "89518",
                         "endColumns": "40",
                         "endOffsets": "89554"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\AndroidStudioProjects\\OrderingApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "16,27,28,23,29,30,24,25,17,21,22,18,19,20,26",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "653,1212,1250,1026,1306,1354,1078,1128,701,906,974,752,802,856,1168",
+                        "endColumns": "47,37,55,51,47,57,49,39,50,67,51,49,53,49,43",
+                        "endOffsets": "696,1245,1301,1073,1349,1407,1123,1163,747,969,1021,797,851,901,1207"
+                    },
+                    "to": {
+                        "startLines": "1624,1715,1716,1723,1725,1726,1727,1728,1729,1730,1731,1732,1733,1734,1735",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "99001,112285,112323,113234,113357,113405,113463,113513,113553,113604,113672,113724,113774,113828,113878",
+                        "endColumns": "47,37,55,51,47,57,49,39,50,67,51,49,53,49,43",
+                        "endOffsets": "99044,112318,112374,113281,113400,113458,113508,113548,113599,113667,113719,113769,113823,113873,113917"
                     }
                 },
                 {

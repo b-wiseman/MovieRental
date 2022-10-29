@@ -23,48 +23,60 @@ import com.example.lunchtray.model.MenuItem
  */
 object DataSource {
     val menuItems = mapOf(
-        "cauliflower" to
+        "topgun" to
         MenuItem(
-            name = "Cauliflower",
-            description = "Whole cauliflower, brined, roasted, and deep fried",
-            price = 7.00,
+            name = "Top Gun Maverick",
+            description = "Movie Description",
+            price = 6.00,
             type = ItemType.ENTREE
         ),
-        "chili" to
+        "bullettrain" to
         MenuItem(
-            name = "Three Bean Chili",
-            description = "Black beans, red beans, kidney beans, slow cooked, topped with onion",
-            price = 4.00,
+            name = "Bullet Train",
+            description = "Movie Description",
+            price = 6.00,
             type = ItemType.ENTREE
         ),
-        "pasta" to
+        "uncutgems" to
         MenuItem(
-            name = "Mushroom Pasta",
-            description = "Penne pasta, mushrooms, basil, with plum tomatoes cooked in garlic and " +
-                    "olive oil",
-            price = 5.50,
+            name = "Uncut Gems",
+            description = "Movie Description",
+            price = 6.00,
             type = ItemType.ENTREE
         ),
-        "skillet" to
+        "morbius" to
         MenuItem(
-            name = "Spicy Black Bean Skillet",
-            description = "Seasonal vegetables, black beans, house spice blend, served with avocado " +
-                    "and quick pickled onions",
-            price = 5.50,
+            name = "Morbius",
+            description = "Movie Description",
+            price = 6.00,
             type = ItemType.ENTREE
         ),
-        "salad" to
+        "toystory" to
+                MenuItem(
+                    name = "Toy Story",
+                    description = "Movie Description",
+                    price = 3.00,
+                    type = ItemType.ENTREE
+                ),
+        "ghostbusters" to
+                MenuItem(
+                    name = "Ghostbusters",
+                    description = "Movie Description",
+                    price = 3.00,
+                    type = ItemType.ENTREE
+                ),
+        "3day" to
         MenuItem(
-            name = "Summer Salad",
-            description = "Heirloom tomatoes, butter lettuce, peaches, avocado, balsamic dressing",
-            price = 2.50,
+            name = "3-day Rental",
+            description = "Return movie after 3 days",
+            price = 3.00,
             type = ItemType.SIDE_DISH
         ),
-        "soup" to
+        "7day" to
         MenuItem(
-            name = "Butternut Squash Soup",
-            description = "Roasted butternut squash, roasted peppers, chili oil",
-            price = 3.00,
+            name = "7-day Rental",
+            description = "Return movie after 7 days",
+            price = 6.00,
             type = ItemType.SIDE_DISH
         ),
         "potatoes" to
