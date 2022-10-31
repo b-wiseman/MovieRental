@@ -14,8 +14,14 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.entree_options, 22);
-        sViewsWithIds.put(R.id.divider, 23);
+        sViewsWithIds.put(R.id.imageView6, 22);
+        sViewsWithIds.put(R.id.imageView5, 23);
+        sViewsWithIds.put(R.id.imageView4, 24);
+        sViewsWithIds.put(R.id.imageView3, 25);
+        sViewsWithIds.put(R.id.imageView, 26);
+        sViewsWithIds.put(R.id.imageView2, 27);
+        sViewsWithIds.put(R.id.entree_options, 28);
+        sViewsWithIds.put(R.id.divider, 29);
     }
     // views
     @NonNull
@@ -42,7 +48,7 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
     // Inverse Binding Event Handlers
 
     public FragmentEntreeMenuBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 24, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 30, sIncludes, sViewsWithIds));
     }
     private FragmentEntreeMenuBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 1
@@ -53,11 +59,17 @@ public class FragmentEntreeMenuBindingImpl extends FragmentEntreeMenuBinding imp
             , (android.widget.RadioButton) bindings[4]
             , (android.widget.TextView) bindings[5]
             , (android.widget.TextView) bindings[6]
-            , (android.view.View) bindings[23]
-            , (android.widget.RadioGroup) bindings[22]
+            , (android.view.View) bindings[29]
+            , (android.widget.RadioGroup) bindings[28]
             , (android.widget.RadioButton) bindings[16]
             , (android.widget.TextView) bindings[17]
             , (android.widget.TextView) bindings[18]
+            , (android.widget.ImageView) bindings[26]
+            , (android.widget.ImageView) bindings[27]
+            , (android.widget.ImageView) bindings[25]
+            , (android.widget.ImageView) bindings[24]
+            , (android.widget.ImageView) bindings[23]
+            , (android.widget.ImageView) bindings[22]
             , (android.widget.Button) bindings[21]
             , (android.widget.RadioButton) bindings[7]
             , (android.widget.TextView) bindings[8]

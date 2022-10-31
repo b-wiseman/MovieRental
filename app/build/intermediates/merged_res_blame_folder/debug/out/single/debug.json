@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-merged_res-47:\\drawable_morbius.jpg.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-main-49:\\drawable\\morbius.jpg"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-merged_res-47:\\drawable_uncutgems.jpg.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-main-49:\\drawable\\uncutgems.jpg"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-merged_res-47:\\layout_fragment_entree_menu.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-main-49:\\layout\\fragment_entree_menu.xml"
     },
@@ -10,6 +18,10 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-merged_res-47:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-main-49:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-merged_res-47:\\drawable_bullettrain.jpg.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-main-49:\\drawable\\bullettrain.jpg"
     },
     {
         "merged": "com.example.lunchtray.app-merged_res-47:/navigation_mobile_navigation.xml.flat",
@@ -28,12 +40,24 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-main-49:\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-merged_res-47:\\drawable_toystory.jpg.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-main-49:\\drawable\\toystory.jpg"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-main-49:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-merged_res-47:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-main-49:\\drawable\\logo.png"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-merged_res-47:\\layout_fragment_start_order.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-main-49:\\layout\\fragment_start_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-merged_res-47:\\drawable_ghostbusters.png.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-main-49:\\drawable\\ghostbusters.png"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-merged_res-47:\\layout_fragment_side_menu.xml.flat",
@@ -46,5 +70,9 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-merged_res-47:\\navigation_mobile_navigation.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-main-49:\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-merged_res-47:\\drawable_topgun.jpg.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.4.2\\com.example.lunchtray.app-main-49:\\drawable\\topgun.jpg"
     }
 ]

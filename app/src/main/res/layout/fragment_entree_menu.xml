@@ -43,6 +43,60 @@
             android:paddingEnd="@dimen/side_margin"
             android:paddingBottom="@dimen/side_margin">
 
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="106dp"
+                android:layout_height="104dp"
+                android:contentDescription="@string/ghostbusters"
+                android:src="@drawable/ghostbusters"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="106dp"
+                android:layout_height="104dp"
+                android:contentDescription="@string/toystory"
+                android:src="@drawable/toystory"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="106dp"
+                android:layout_height="104dp"
+                android:contentDescription="@string/morbius"
+                android:src="@drawable/morbius"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="106dp"
+                android:layout_height="104dp"
+                android:contentDescription="@string/uncutgems"
+                android:src="@drawable/uncutgems"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="106dp"
+                android:layout_height="104dp"
+                android:contentDescription="@string/topgun"
+                android:src="@drawable/topgun"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="106dp"
+                android:layout_height="104dp"
+                android:contentDescription="@string/bullettrain"
+                android:src="@drawable/bullettrain"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
             <RadioGroup
                 android:id="@+id/entree_options"
                 android:layout_width="match_parent"
@@ -52,13 +106,14 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <!-- doneTODO: set the entree in the view model when the RadioButton is clicked -->
+
                 <RadioButton
                     android:id="@+id/cauliflower"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAppearance="?attr/textAppearanceBody1"
-                    android:text='@{viewModel.menuItems["topgun"].name}'
                     android:onClick='@{() -> viewModel.setEntree("topgun")}'
+                    android:text='@{viewModel.menuItems["topgun"].name}'
+                    android:textAppearance="?attr/textAppearanceBody1"
                     tools:text="Entree 1" />
 
                 <TextView
@@ -87,9 +142,9 @@
                     android:id="@+id/chili"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAppearance="?attr/textAppearanceBody1"
-                    android:text='@{viewModel.menuItems["bullettrain"].name}'
                     android:onClick='@{() -> viewModel.setEntree("bullettrain")}'
+                    android:text='@{viewModel.menuItems["bullettrain"].name}'
+                    android:textAppearance="?attr/textAppearanceBody1"
                     tools:text="Entree 2" />
 
                 <TextView
@@ -118,9 +173,9 @@
                     android:id="@+id/pasta"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAppearance="?attr/textAppearanceBody1"
-                    android:text='@{viewModel.menuItems["uncutgems"].name}'
                     android:onClick='@{() -> viewModel.setEntree("uncutgems")}'
+                    android:text='@{viewModel.menuItems["uncutgems"].name}'
+                    android:textAppearance="?attr/textAppearanceBody1"
                     tools:text="Entree 3" />
 
                 <TextView
@@ -149,9 +204,9 @@
                     android:id="@+id/skillet"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAppearance="?attr/textAppearanceBody1"
-                    android:text='@{viewModel.menuItems["morbius"].name}'
                     android:onClick='@{() -> viewModel.setEntree("morbius")}'
+                    android:text='@{viewModel.menuItems["morbius"].name}'
+                    android:textAppearance="?attr/textAppearanceBody1"
                     tools:text="Entree 4" />
 
                 <TextView
@@ -168,10 +223,6 @@
                     tools:text="$0.00" />
 
 
-
-
-
-
                 <View
                     style="@style/Widget.LunchTray.Divider"
                     android:layout_width="match_parent"
@@ -185,9 +236,9 @@
                     android:id="@+id/toystory"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAppearance="?attr/textAppearanceBody1"
-                    android:text='@{viewModel.menuItems["toystory"].name}'
                     android:onClick='@{() -> viewModel.setEntree("toystory")}'
+                    android:text='@{viewModel.menuItems["toystory"].name}'
+                    android:textAppearance="?attr/textAppearanceBody1"
                     tools:text="Entree 5" />
 
                 <TextView
@@ -204,7 +255,6 @@
                     tools:text="$0.00" />
 
 
-
                 <View
                     style="@style/Widget.LunchTray.Divider"
                     android:layout_width="match_parent"
@@ -218,9 +268,9 @@
                     android:id="@+id/ghostbusters"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAppearance="?attr/textAppearanceBody1"
-                    android:text='@{viewModel.menuItems["ghostbusters"].name}'
                     android:onClick='@{() -> viewModel.setEntree("ghostbusters")}'
+                    android:text='@{viewModel.menuItems["ghostbusters"].name}'
+                    android:textAppearance="?attr/textAppearanceBody1"
                     tools:text="Entree 6" />
 
                 <TextView

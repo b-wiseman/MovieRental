@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -57,6 +58,24 @@ public abstract class FragmentEntreeMenuBinding extends ViewDataBinding {
   public final TextView ghostbustersPrice;
 
   @NonNull
+  public final ImageView imageView;
+
+  @NonNull
+  public final ImageView imageView2;
+
+  @NonNull
+  public final ImageView imageView3;
+
+  @NonNull
+  public final ImageView imageView4;
+
+  @NonNull
+  public final ImageView imageView5;
+
+  @NonNull
+  public final ImageView imageView6;
+
+  @NonNull
   public final Button nextButton;
 
   @NonNull
@@ -99,10 +118,12 @@ public abstract class FragmentEntreeMenuBinding extends ViewDataBinding {
       Button cancelButton, RadioButton cauliflower, TextView cauliflowerDescription,
       TextView cauliflowerPrice, RadioButton chili, TextView chiliDescription, TextView chiliPrice,
       View divider, RadioGroup entreeOptions, RadioButton ghostbusters,
-      TextView ghostbustersDescription, TextView ghostbustersPrice, Button nextButton,
-      RadioButton pasta, TextView pastaDescription, TextView pastaPrice, RadioButton skillet,
-      TextView skilletDescription, TextView skilletPrice, TextView subtotal, RadioButton toystory,
-      TextView toystoryDescription, TextView toystoryPrice) {
+      TextView ghostbustersDescription, TextView ghostbustersPrice, ImageView imageView,
+      ImageView imageView2, ImageView imageView3, ImageView imageView4, ImageView imageView5,
+      ImageView imageView6, Button nextButton, RadioButton pasta, TextView pastaDescription,
+      TextView pastaPrice, RadioButton skillet, TextView skilletDescription, TextView skilletPrice,
+      TextView subtotal, RadioButton toystory, TextView toystoryDescription,
+      TextView toystoryPrice) {
     super(_bindingComponent, _root, _localFieldCount);
     this.cancelButton = cancelButton;
     this.cauliflower = cauliflower;
@@ -116,6 +137,12 @@ public abstract class FragmentEntreeMenuBinding extends ViewDataBinding {
     this.ghostbusters = ghostbusters;
     this.ghostbustersDescription = ghostbustersDescription;
     this.ghostbustersPrice = ghostbustersPrice;
+    this.imageView = imageView;
+    this.imageView2 = imageView2;
+    this.imageView3 = imageView3;
+    this.imageView4 = imageView4;
+    this.imageView5 = imageView5;
+    this.imageView6 = imageView6;
     this.nextButton = nextButton;
     this.pasta = pasta;
     this.pastaDescription = pastaDescription;

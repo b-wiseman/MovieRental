@@ -14,7 +14,7 @@
   ~ limitations under the License.
   -->
 <resources>
-    <string name="app_name">Lunch Tray</string>
+    <string name="app_name">Movie Rentals</string>
     <string name="tile_start_order">Order</string>
     <string name="title_coupons">Coupons</string>
     <string name="title_entree_menu">Entrees</string>
@@ -29,4 +29,11 @@
     <string name="order_summary">Order Summary</string>
     <string name="submit">Submit Order</string>
     <string name="submit_order">Order Submitted!</string>
+    <string name="ghostbusters">ghostbusters</string>
+    <string name="toystory">toystory</string>
+    <string name="morbius">morbius</string>
+    <string name="uncutgems">uncutgems</string>
+    <string name="topgun">topgun</string>
+    <string name="bullettrain">bullettrain</string>
+    <string name="order_here">order here!</string>
 </resources>
